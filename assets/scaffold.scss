@@ -1,6 +1,7 @@
 @import 'tachyons';
 @import 'list';
 @import 'taxonomies';
+@import 'single';
 
 @font-face {
     font-family: "FoundersGroteskMono";
@@ -20,7 +21,7 @@ body {
     font-family: FoundersGroteskMono, monospace;
     background-color: ivory;
     font-size: 14px;
-    line-height: 150%;
+    line-height: 180%;
 
     h1,h2,h3,h4 {
         font-size: 30px;
@@ -30,6 +31,23 @@ body {
     }
 }
 
+blockquote {
+    display: inline-block;
+    font-style: italic;
+    font-size: 20px;
+
+    p {
+        margin: 0;
+        padding: 10px;
+        color: $black-70;
+    }
+
+    p::before {
+        content: " > ";
+        color: $black;
+    }
+
+}
 .site_brand{
     @include grid_list(1fr 2fr 1fr);
     @include items_center();

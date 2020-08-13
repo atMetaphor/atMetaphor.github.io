@@ -1,0 +1,16 @@
+.single_page{
+    @include grid_list (1fr 2fr 1fr, 1fr);
+    display: grid;
+    grid-template-areas: ". single_content .";
+
+    .single_content{
+        line-height: 180%;
+        grid-area: single_content;
+        img{
+            max-width: 450px;
+            display: block;
+            padding: 1.5em;
+            margin: auto;
+        }
+    }
+}

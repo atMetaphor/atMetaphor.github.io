@@ -4,7 +4,7 @@
         {{ range .Pages.ByPublishDate}}
         <div class="list_posts">
             <a class="link black underline-hover dim fw6 f4" href="{{ .RelPermalink }}">{{ .Title }}</a>
-            {{ partial "date_and_tags.html" . }}
+            {{ partial "taxonomies.html" . }}
         </div>
         {{ end }}
     </div>

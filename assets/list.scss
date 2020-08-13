@@ -9,7 +9,7 @@
   }
 
 .list_page{
-    @include grid_list(1fr 2r 1fr, 1fr);
+    @include grid_list(1fr 2fr 1fr, 1fr);
     display: grid;
     grid-template-areas: ". list_content .";
 

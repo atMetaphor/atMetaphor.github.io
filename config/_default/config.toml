@@ -20,8 +20,9 @@ footertextsub = "© Qulture Collective"
     weight = 2
   [[menu.main]]
     name = "Contact"
-    url = "#"
+    url = "/contact"
     weight = 3
 
   [taxonomies]
   tag = "tags"
+  category = "categories"

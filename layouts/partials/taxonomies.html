@@ -16,5 +16,14 @@
     {{ end }}
     {{ end }}
   </div>
+  <div class="t_categories">
+    {{ with .Params.categories }}
+    <p class="ma0 mr2">Categories:</p>
+    {{ range . }}
+    {{ $href := print (absURL "categories/") (urlize .) }}
+    <a class="link underline-hover ttc blue-70 mr2 " href="{{ $href }}">{{ . }}</a>
+    {{ end }}
+    {{ end }}
+  </div>
 
 </div>
