@@ -1,7 +1,7 @@
 <div class="site_brand">
     <div class="brand_content">
-        <h1>{{.Title}}</h1>
-        <h1 class="fw1 f3">{{ $.Param "subtitle" }}</h1>
+        <h1>{{ site.Title}}</h1>
+        <h1 class="fw1 f3">{{ .Title }}</h1>
         <div class="navbar">
             {{ range .Site.Menus.main }}
             <a class="link black underline-hover dim mh3" href="{{ .URL }}">{{ .Name }}</a>

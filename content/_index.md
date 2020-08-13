@@ -1,5 +1,4 @@
 ---
-title: "Qulture Collective"
 date: 2020-08-13T13:32:29+12:00
 draft: false
 ---
