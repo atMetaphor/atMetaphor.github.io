@@ -8,6 +8,7 @@
     <main>
         {{ partial "nav.html" . }}
         {{ block "main" . }}{{ end }}
+        {{ block "blog" . }}{{ end }}
     </main>
     {{ partial "footer.html" . }}
     {{ partial "feather_script.html" . }}

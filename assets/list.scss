@@ -1,0 +1,24 @@
+@mixin grid_list ($tmp_column, $tmp_row: 1fr) {
+    grid-template-columns: $tmp_column;
+    grid-template-rows: $tmp_row;
+  }
+
+  @mixin items_center {
+    align-items: center;
+    justify-self: center;
+  }
+
+.list_page{
+    @include grid_list(1fr 2r 1fr, 1fr);
+    display: grid;
+    grid-template-areas: ". list_content .";
+
+    .list_content{
+        grid-area: list_content;
+        .list_posts{
+            display: flex;
+            flex-direction: column;
+            margin: 1em 0 1em;
+        }
+    }
+}

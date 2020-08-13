@@ -1,14 +1,6 @@
 @import 'tachyons';
-
-@mixin grid_list ($tmp_column, $tmp_row: 1fr) {
-    grid-template-columns: $tmp_column;
-    grid-template-rows: $tmp_row;
-  }
-
-  @mixin items_center {
-    align-items: center;
-    justify-self: center;
-  }
+@import 'list';
+@import 'taxonomies';
 
 @font-face {
     font-family: "FoundersGroteskMono";
@@ -87,7 +79,7 @@ body {
         justify-content: center;
         svg{
            margin: 2em;
-           color: $black-70;
+           color: $black;
         }
     }
     .f_text{
