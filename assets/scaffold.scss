@@ -1,0 +1,98 @@
+@import 'tachyons';
+
+@mixin grid_list ($tmp_column, $tmp_row: 1fr) {
+    grid-template-columns: $tmp_column;
+    grid-template-rows: $tmp_row;
+  }
+
+  @mixin items_center {
+    align-items: center;
+    justify-self: center;
+  }
+
+@font-face {
+    font-family: "FoundersGroteskMono";
+
+    @font-face {
+        font-family: "Copyright Klim Type Foundry";
+        src: url("//db.onlinewebfonts.com/t/5647bf435a13823da11b34988ae7531d.eot");
+        src: url("//db.onlinewebfonts.com/t/5647bf435a13823da11b34988ae7531d.eot?#iefix") format("embedded-opentype"), 
+        url("//db.onlinewebfonts.com/t/5647bf435a13823da11b34988ae7531d.woff2") format("woff2"), 
+        url("//db.onlinewebfonts.com/t/5647bf435a13823da11b34988ae7531d.woff") format("woff"), 
+        url("//db.onlinewebfonts.com/t/5647bf435a13823da11b34988ae7531d.ttf") format("truetype"), 
+        url("//db.onlinewebfonts.com/t/5647bf435a13823da11b34988ae7531d.svg#Copyright Klim Type Foundry") format("svg");
+    }
+}
+
+body {
+    font-family: FoundersGroteskMono, monospace;
+    background-color: ivory;
+    font-size: 14px;
+    line-height: 150%;
+
+    h1,h2,h3,h4 {
+        font-size: 30px;
+        text-align: center;
+        text-transform: capitalize;
+        margin: 2em;
+    }
+}
+
+.site_brand{
+    @include grid_list(1fr 2fr 1fr);
+    @include items_center();
+    display: grid;
+    grid-template-areas: ". brand_content .";
+    text-align: center;
+    .brand_content{
+        grid-area: brand_content;
+    }
+    .navbar{
+        margin: 2em;
+        a{
+            font-size: 18px;
+            text-transform: capitalize;
+        }
+    }
+}
+
+  .page{
+      @include grid_list(1fr 2fr 1fr, 1fr );
+      @include items_center();
+      display: grid;
+      grid-template-areas:". content .";
+      .content{
+          grid-area: content;
+        img {
+            max-width: 350px;
+            display: block;
+            padding: 1.5em;
+            margin: auto;
+        }
+      }
+    }
+
+.footer{
+    @include grid_list(1fr 2fr 1fr, 1fr );
+    @include items_center();
+    display: grid;
+    grid-template-areas:". f_content .";
+    .f_content{
+        margin: 1em;
+        text-align: center;
+        grid-area: f_content;
+    .f_icons{
+        display: flex;
+        direction: row;
+        justify-content: center;
+        svg{
+           margin: 2em;
+           color: $black-70;
+        }
+    }
+    .f_text{
+        display: flex;
+        flex-direction: column;
+        }
+    }
+}
