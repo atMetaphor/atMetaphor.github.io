@@ -1,13 +1,13 @@
 baseURL = ""
 languageCode = "en-us"
-title = "Qulture Collective"
+title = "Qulture"
 
 
 [params]
 dateFormat = "Jan 2, 2006"
 type = "website"
 footertext = "powered by Hugo & Tachyons"
-footertextsub = "© Qulture Collective"
+footertextsub = "© Qulture"
 
 [menu]
   [[menu.main]]
@@ -18,10 +18,6 @@ footertextsub = "© Qulture Collective"
     name = "Blog"
     url = "/blog"
     weight = 2
-  [[menu.main]]
-    name = "Contact"
-    url = "/contact"
-    weight = 3
 
   [taxonomies]
   tag = "tags"
