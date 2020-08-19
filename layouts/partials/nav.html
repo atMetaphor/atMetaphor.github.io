@@ -1,7 +1,7 @@
 <div class="site_brand">
     <div class="brand_content">
-        <img src="/img/qulture.png" alt="">
-        <h1 class="fw1 f3">{{ .Title }}</h1>
+        <a class=" dim " href="/"><img src="{{ $.Site.Params.brandimage }}" alt=""></a>
+        <h1 class="fw5 f-subheadline dn">{{ .Title }}</h1>
         <div class="navbar">
             {{ range .Site.Menus.main }}
             <a class="link black underline-hover dim mh3" href="{{ .URL }}">{{ .Name }}</a>
