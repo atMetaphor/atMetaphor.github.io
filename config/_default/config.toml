@@ -1,6 +1,6 @@
 baseURL = ""
 languageCode = "en-us"
-title = "Qulture"
+title = "Metaphor"
 
 
 [params]
@@ -8,7 +8,7 @@ dateFormat = "Jan 2, 2006"
 type = "website"
 brandimage = "/img/qulture_logo.svg"
 footertext = "powered by Hugo & Tachyons"
-footertextsub = "© Qulture"
+footertextsub = "©metaphor"
 
 [menu]
 
