@@ -7,7 +7,7 @@ categories: ["Cardano"]
 youtube: "https://www.youtube.com/watch?v=R1FBI7g6iLI&t"
 ---
 
-{{< soundcloud 880453507 >}}
+{{< anchor Selecting-a-Stake-Pool-on-Cardano---A-look-a-metrics-and-delegation-eit79v >}}
 
 Thanks for tuning in. In this episode, I'll be focusing on Cardano and a process called stake pool delegation. 
 

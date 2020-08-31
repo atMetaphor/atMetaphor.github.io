@@ -7,8 +7,7 @@ categories: ["Cardano"]
 youtube: "https://www.youtube.com/watch?v=jqQe0Vk7GGc&t"
 ---
 
-{{< soundcloud 878739196 >}}
-
+{{< anchor Selecting-a-Stake-Pool-on-Cardano---A-look-a-metrics-and-delegation-eit6h5 >}}
 
 Decentralised finance continues the evolution of digital asset infrastructure toward lightweight forms of global finance. And like the crypto-currency era that underpins this radical experiment in economics, it comes with its own rapidly evolving uses and confusing language.
 
