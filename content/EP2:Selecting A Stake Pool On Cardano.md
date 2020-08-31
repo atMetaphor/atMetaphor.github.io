@@ -7,7 +7,7 @@ categories: ["Cardano"]
 youtube: "https://www.youtube.com/watch?v=R1FBI7g6iLI&t"
 ---
 
-{{< soundcloud 880405792 >}}
+{{< soundcloud 880453507 >}}
 
 Thanks for tuning in. In this episode, I'll be focusing on Cardano and a process called stake pool delegation. 
 
