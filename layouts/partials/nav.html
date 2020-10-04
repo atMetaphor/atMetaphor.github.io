@@ -1,13 +1,8 @@
 <div class="site_brand">
     <div class="brand_content">
         <a class=" dim " href="/"><img src="{{ $.Site.Params.brandimage }}" alt=""></a>
-        <h1 class="f3 lh-copy">{{ .Title }}</h1>
-        {{ if .IsHome }}<h1 class="f4 fw2 i lh-copy">"{{ .Params.byline }}"</h1>{{ end }}
-        <div class="navbar">
-            {{ range .Site.Menus.main }}
-            <a class="link black underline-hover dim mh3" href="{{ .URL }}">{{ .Name }}</a>
-            {{ end }}
-        </div>
+        <h1 class="f3-ns f4 center lh-copy">{{ .Title }}</h1>
+        {{ if .IsHome }}<h1 class="f4-ns center f6 fw2 i">"{{ .Params.byline }}"</h1>{{ end }}
         <div class="summary">
             <p>{{ .Params.summary }}</p>
         </div>

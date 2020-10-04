@@ -44,10 +44,6 @@ blockquote {
 
 }
 
-.soundcloud{
-    margin: 1em 0 1em 0;
-}
-
 .site_brand{
     @include grid_list(1fr 2fr 1fr);
     @include items_center();
@@ -60,13 +56,6 @@ blockquote {
         img{
             max-width: 130px;
             margin: 1.5em 0 1.5em 0;
-        }
-    }
-    .navbar{
-        margin: 2em;
-        a{
-            font-size: 18px;
-            text-transform: capitalize;
         }
     }
 .summary {
@@ -116,6 +105,25 @@ blockquote {
     .f_text{
         display: flex;
         flex-direction: column;
+        }
+    }
+}
+
+// Small Phone Screens
+@media only screen and (max-width: 768px) {
+    
+    .site_brand{
+        @include grid_list(50px 1fr 50px);
+        @include items_center();
+        text-align: center;
+    }
+    
+    .footer{
+        @include grid_list(1fr 1fr 1fr, 1fr );
+        @include items_center();
+        align-items: center;
+        .f_content{
+            font-size: 12px;
         }
     }
 }

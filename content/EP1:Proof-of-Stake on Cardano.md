@@ -89,7 +89,7 @@ Ka kite anō au I a koe and i’ll see you in the next one.
 
 ---
 
-## resources
+## Resources
 
 Cardano Simply Explained:  https://www.youtube.com/watch?v=Do8rHvr65ZA&t=4s
 

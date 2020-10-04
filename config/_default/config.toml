@@ -10,9 +10,6 @@ brandimage = "/img/qulture_logo.svg"
 footertext = "powered by Hugo & Tachyons"
 footertextsub = "©metaphor"
 
-[menu]
-
-
 [taxonomies]
 tag = "tags"
 category = "categories"
