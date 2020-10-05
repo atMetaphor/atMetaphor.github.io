@@ -1,2 +1,2 @@
-# PardusEidolon.github.io
-A portfolio of my work.
+# The Website for Metaphor
+This site was built using Hugo and Tachyons.
