@@ -112,6 +112,25 @@ blockquote {
 // Small Phone Screens
 @media only screen and (max-width: 768px) {
     
+    blockquote {
+        display: inline-block;
+        font-style: italic;
+        font-size: 13px;
+        line-height: 15px;
+    
+        p {
+            margin: 0;
+            padding: 0px;
+            color: $black-70;
+        }
+    
+        p::before {
+            content: " > ";
+            color: $black;
+        }
+    
+    }
+
     .site_brand{
         @include grid_list(50px 1fr 50px);
         @include items_center();
@@ -126,4 +145,6 @@ blockquote {
             font-size: 12px;
         }
     }
+
+    
 }
